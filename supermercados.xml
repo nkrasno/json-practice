@@ -1,0 +1,30 @@
+<supermercado>
+  <nombre>Supermercado Mi Alcampo</nombre>
+  <direccion>C. Servillas, 5-7, 26007 Logroño, La Rioja</direccion>
+  <geolocalizacion>
+    <latitud>42.4545934</latitud>
+    <longitud>-2.4469854</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Leche</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>
+        <inicio>2023-06-01</inicio>
+        <fin>2023-06-15</fin>
+      </periodo_vigencia>
+      <unidades>2</unidades>
+      <unidad_medida>litros</unidad_medida>
+      <precio>1.50</precio>
+      <adquirido>true</adquirido>
+    </producto>
+    <producto>
+      <nombre>Pan</nombre>
+      <oferta>false</oferta>
+      <unidades>1</unidades>
+      <unidad_medida>unidad</unidad_medida>
+      <precio>0.80</precio>
+      <adquirido>false</adquirido>
+    </producto>
+  </productos>
+</supermercado>
